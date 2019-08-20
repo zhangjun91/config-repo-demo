@@ -13,7 +13,10 @@ spring:
       name: config-client
       label: master
       profile: dev
-
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 server:
   port: 8766
 
